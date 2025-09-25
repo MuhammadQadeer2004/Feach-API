@@ -1,0 +1,16 @@
+{
+    "studentdata": [
+        {
+            "id": 1,
+            "name": "Ali",
+            "place": "Lahore",
+            "phone": "3426413594"
+        },
+        {
+            "id": 2,
+            "name": "Qadeer",
+            "place": "Lahore",
+            "phone": "3458537470"
+        }
+    ]
+}
