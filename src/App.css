@@ -1,10 +1,11 @@
-body{
+body {
     font-family: 'Segeo UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #131842;
     padding: 20px;
     margin: 0;
 }
-.container{
+
+.container {
     max-width: 900px;
     margin: 0 auto;
     background-color: #FFFFFF;
@@ -13,18 +14,21 @@ body{
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
     border-top: 4px solid #674188;
 }
-h2{
+
+h2 {
     color: #674188;
     text-align: center;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 24px;
 }
+
 /* Table Styling */
-.table-container{
+.table-container {
     margin-top: 20px;
 }
-table{
+
+table {
     width: 100%;
     border-collapse: collapse;
     background-color: #FFFFFF;
@@ -32,29 +36,36 @@ table{
     overflow: hidden;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.05);
 }
-th, td{
+
+th,
+td {
     padding: 15px 20px;
     text-align: left;
     border-bottom: 1px solid #eee;
 }
-th{
+
+th {
     background-color: #674188;
     color: #FFFFFF;
     font-weight: 500;
     text-transform: uppercase;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: #E3BFD9;
 }
-tr:hover{
+
+tr:hover {
     background-color: #ebe9e8;
 }
-.errorMSG{
+
+.errorMSG {
     color: #c82333;
     margin-bottom: 15px;
 }
+
 /* Button Styling */
-.btn{
+.btn {
     display: inline-block;
     padding: 10px 15px;
     border: none;
@@ -66,19 +77,87 @@ tr:hover{
     transition: background-color 0.3s, transform 0.2s;
     margin-right: 15px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #674188;
 }
-.btn-danger{
+
+.btn-danger {
     background-color: #dc3545;
 }
-.btn-info{
+
+.btn-info {
     background-color: #33bee5;
 }
-.btn:hover{
+
+.btn:hover {
     transform: translateY(-2px);
 }
-.btn-add{
+
+.btn-add {
     background-color: #533366;
     margin: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* ✅ inputs ke beech gap */
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn-save {
+    margin: 5px;
+    padding: 10px 20px;
+    background: #29ca46;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-save:hover {
+    background: #674188;
+    transform: translateY(-2px);
+}
+
+.btn-back {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #c82333;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    /* Link ko button jaisa banane ke liye */
+}
+
+.btn-back:hover {
+    background: #664ce7;
+    transform: translateY(-2px);
+}
+.errorMsg{
+    color: #c82333;
+     font-size: 14px;
+}
+
+/* View Student Data */
+
+.details strong{
+    color: #6e4493;
+}
+.details p{
+    font-size: 18px;
 }
